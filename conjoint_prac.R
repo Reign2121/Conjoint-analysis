@@ -60,7 +60,7 @@ exp(m1$coefficients) #= 계수는 효용정도를 나타냅니다.
 #1. 임의의, 가상의 상품들을 만들고 가변수들 구성
 #2. 가변수들 * m1에서 구한 효용 = 효용정도
 #3. share = exp(utility)/sum(exp(utility)) 이것이 preference rule
-#point!, 가상의 상품을 만들때, client의 요구나 도메인의 핵심 이슈를 반영해서 만들기
+#point! 가상의 상품을 만들때, client의 요구나 도메인의 핵심 이슈를 반영해서 만들기
 
 
 #market share
@@ -112,5 +112,6 @@ utility
 share = exp(utility)/sum(exp(utility)) #preference rule을 이용해 점유율 추정하기
 
 shares = cbind(share, products300)
+
 shares #점유율 추정
 
